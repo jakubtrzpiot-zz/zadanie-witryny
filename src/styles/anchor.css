@@ -1,0 +1,13 @@
+figcaption {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+}
+.cars {
+    height: 500px;
+    width: 750px;
+}
+.anchors {
+    height: 450px;
+    width: 600px;
+}
