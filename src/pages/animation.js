@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
 import EventListener from 'react-event-listener';
-import "./../styles/animation.css";
+import "./../styles/animation.scss";
 
 class Animation extends Component {
+	componentDidMount(){
+		document.title = "Animacja"
+	}
 	moveCar = () => {
 		let pos = 0;
 		let car = document.getElementById("car");

@@ -1,9 +1,13 @@
 import React from 'react';
-import './../styles/anchor.css';
+import './../styles/anchor.scss';
+import { Helmet }from 'react-helmet';
 
 const Anchor = () => {
   return(
     <>
+			<Helmet>
+				<title>Kotwice</title>
+			</Helmet>
 			<h2>Odsyłacze</h2>
 			<div>
 				<ul>
